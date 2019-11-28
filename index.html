@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budget App</title>
+
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="upper_part">
+      <div class="budget">
+        
+        <div class="budget_title">
+            
+            Available Budget in <span class="budget_title_month">January,2019</span>
+        </div>
+
+        <div class="budget_balance">+1,000.23</div>
+
+        <div class="budget_income clearfix">
+            <div class="budget_income_text">Income</div>
+            <div class="right">
+                <div class="budget_income_value">+2,500.00</div>
+                <div class="budget_income_percentage">&nbsp;</div>
+            </div>
+        </div>
+
+        <div class="budget_expense clearfix">
+            <div class="budget_expense_text">Expense</div>
+            <div class="right">
+                <div class="budget_expense_value">-1,000.243</div>
+                <div class="budget_expense_percentage">25%</div>
+            </div>
+        </div>
+    
+        </div>
+    </div>
+
+
+    <div class="lower_part">
+        <div class="add">
+
+            <div class="add_container">
+                <select class="add_type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+
+                <input type="text" class="add_description" placeholder="Add Description"/>
+                
+                <input type="value" class="add_value" placeholder="Value" />
+                
+                <button class="add_btn">
+                    <i class="ion-ios-checkmark-outline"></i>
+                </button> 
+            </div>
+
+            <div class="container clearfix">
+                    <div class="income">
+                        <h2 class="icome__title">Income</h2>
+                        
+                        <div class="income__list">
+                           
+                           
+                            <!-- <div class="item clearfix" id="inc-0">
+                                <div class="item__description">Salary</div>
+                                <div class="right clearfix">
+                                    <div class="item__value">+ 2,100.00</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn">
+                                            <i class="ion-ios-close-outline"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item clearfix" id="inc-1">
+                                <div class="item__description">Sold car</div>
+                                <div class="right clearfix">
+                                    <div class="item__value">+ 1,500.00</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                              -->
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="expenses">
+                        <h2 class="expenses__title">Expenses</h2>
+                        
+                        <div class="expenses__list">
+                           
+                            
+                            <!-- <div class="item clearfix" id="exp-0">
+                                <div class="item__description">Apartment rent</div>
+                                <div class="right clearfix">
+                                    <div class="item__value">- 900.00</div>
+                                    <div class="item__percentage">21%</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn">
+                                            <i class="ion-ios-close-outline"></i> 
+                                             //parentnode : 4 till => item class 
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> -->
+    
+                            <!-- <div class="item clearfix" id="exp-1">
+                                <div class="item__description">Grocery shopping</div>
+                                <div class="right clearfix">
+                                    <div class="item__value">- 435.28</div>
+                                    <div class="item__percentage">10%</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+        
+      
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
